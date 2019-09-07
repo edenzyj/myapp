@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/titleid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="HelloWorld"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/contid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Everybody says HELLO WORLD!!!Everybody says HELLO WORLD!!!Everybody says HELLO WORLD!!!Everybody says HELLO WORLD!!!"
+            android:textSize="16dp"
+            android:textColor="#404080"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:background="#6F6FFF"
+            />
+
+        <TextView
+            android:id="@+id/dateid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1998-12-24 0:00:00"
+            android:textSize="14dp"
+            android:textColor="#8080B0"
+            android:maxLines="1" />
+
+    </LinearLayout>
+
+</LinearLayout>
